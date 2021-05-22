@@ -29,8 +29,9 @@ body{
     margin-top: 60px;
 }
 .imagen-servicios{
-    height: 300px;
-    margin-top: 60px;
+    height: 400px;
+    margin-top: 120px;
+    margin-left: 30px;
 }
 .texto{
     font-size: 18px;
@@ -69,6 +70,7 @@ nav{
     display: flex;
     padding: 0;
 }
+
 
 .enlaces-menu li {
     padding: 15px;
@@ -171,7 +173,13 @@ hr {
         display: block;
         margin: auto;
         height: 400px;
-        border-radius: 1000px;
+        
+    }
+    .imagen-servicios{
+        padding-top: 30px;
+        display: block;
+        margin: auto;
+        height: 300px;
     }
     .texto{
         font-size: 15px;
