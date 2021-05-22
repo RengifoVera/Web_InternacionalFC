@@ -20,4 +20,6 @@ from Web_InternacionalFC import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home,name="home"),
+    path('experiencia/',views.experiencia,name="experiencia"),
+    path('index/', views.index,name="index"),
 ]

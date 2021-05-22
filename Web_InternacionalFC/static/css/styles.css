@@ -113,7 +113,13 @@ nav{
     color: white;
     font-size: 2.5rem;
 }
-
+.centro-carrusel{
+    display: block;
+    margin: auto;
+}
+.central{
+    padding-top: 60px;
+}
 hr {
     display: block;
     unicode-bidi: isolate;
