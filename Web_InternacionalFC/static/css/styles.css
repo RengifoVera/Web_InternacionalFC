@@ -18,7 +18,9 @@ body{
     overflow-x: hidden !important;
     
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 .logo{
     height: 50px;
     padding-right: 450px;
