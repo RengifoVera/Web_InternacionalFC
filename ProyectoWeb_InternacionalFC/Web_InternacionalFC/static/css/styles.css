@@ -127,6 +127,13 @@ nav{
 .central{
     padding-top: 60px;
 }
+.enlaces-menu li ul {
+    display: none;
+    position: absolute;
+}
+.enlaces-menu li:hover > ul{
+    display: block;
+}
 hr {
     display: block;
     unicode-bidi: isolate;
