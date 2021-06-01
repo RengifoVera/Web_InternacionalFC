@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
 html{
     font-size: 62.5%;
     box-sizing: border-box;
@@ -148,6 +149,41 @@ hr {
     border-top: 2px solid rgb(0, 0, 0);
     width: 90%;
 }
+.modal-content .btn-cerrar{
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 100px;
+
+}
+.modal {
+    position: fixed;
+    top: 150px;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: 100%;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+.modal-body h2 {
+    text-align: center;
+}
+.modal-body .correo {
+    font-size: 88px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.modal-body .social{
+    font-size: 20px;
+    text-align: center;
+}
+
 @media (max-width:768px){
     body{
         overflow: scroll;
@@ -177,7 +213,7 @@ hr {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 92vh;
+        height: 80vh;
         margin: 0;
         padding: 0;
         width: 100%;
@@ -238,6 +274,24 @@ hr {
         display: block;
         margin: auto;
 
+    }
+    .modal-body .correo {
+        font-size: 40px;
+        text-align: center;
+        cursor: pointer;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    .modal {
+        position: fixed;
+        top: 200px;
+        left: 0;
+        z-index: 1060;
+        display: none;
+        width: 100%;
+        height: 300px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        outline: 0;
     }
 
 }

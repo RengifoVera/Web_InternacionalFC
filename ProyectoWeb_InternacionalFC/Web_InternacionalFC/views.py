@@ -9,3 +9,5 @@ def index(request):
     return render(request,"Web_InternacionalFC/index.html")
 def servicios(request):
     return render(request,"Web_InternacionalFC/servicios.html")
+def contacto(request):
+    return render(request,"Web_InternacionalFC/contacto.html")
